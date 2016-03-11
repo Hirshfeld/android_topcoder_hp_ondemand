@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_frame"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.topcoder.hp.idol.ondemand.Activities.AddAllSMSToIndexActivity">>
+
+
+    <Button
+        android:id="@+id/buttonStartToAddAttachments"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="@string/button_start_to_add_attachments"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonStopToAddAttachments"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="@string/button_stop_to_add_attachments"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textViewCurrentlyProcessing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dip"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/labelTotalAttachments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/total_attachments"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textViewTotalAttachments"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <ProgressBar
+            android:id="@+id/progressBarTotalAttachments"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/labelProcessedAttachments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/processed_attachments"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/textViewProcessedAttachments"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <ProgressBar
+            android:id="@+id/progressBarProcessedAttachments"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/layoutProgressComponents"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dip"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/labelCurrMMSData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/current_mms_data"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/textViewCurrMMSData"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <ProgressBar
+                android:id="@+id/progressBarCurrMMSData"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dip"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/labelCurrMMSType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/current_mms_type"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/textViewCurrMMSType"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <ProgressBar
+                android:id="@+id/progressBarCurrMMSType"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dip"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/labelCurrMMSSentimentalAnalysis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/current_message_sentimental_analysis"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/textViewCurrMMSSentimentalAnalysis"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <ProgressBar
+                android:id="@+id/progressBarCurrMMSSentimentalAnalysis"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

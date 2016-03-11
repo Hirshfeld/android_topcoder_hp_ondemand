@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/IDOL/IDOL.iml" filepath="$PROJECT_DIR$/IDOL/IDOL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TopCoder-IDOL.iml" filepath="$PROJECT_DIR$/TopCoder-IDOL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library.DragDropList/library.DragDropList.iml" filepath="$PROJECT_DIR$/library.DragDropList/library.DragDropList.iml" />
+    </modules>
+  </component>
+</project>

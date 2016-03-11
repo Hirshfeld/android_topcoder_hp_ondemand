@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="silk-master">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../SafeShare app/libs/silk-master.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IDOL</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_create_index">Create Index for application</string>
+    <string name="button_add_all_sms">Add All SMS messages</string>
+    <string name="button_add_all_mms">Add All MMS attachments</string>
+
+    <string name="button_explore_indexes">Explore indexes</string>
+    <string name="title_explore_indexes_activity">Explore indexes</string>
+    <string name="button_explore_sms">Explore SMS messages</string>
+    <string name="title_explore_sms_activity">Explore SMS</string>
+    <string name="sms_upload_to_index_label">Add to index</string>
+    <string name="delete_text_index_label">Delete</string>
+    <string name="ACTION_SETTINGS">Settings</string>
+    <string name="EDIT_API_KEY">API key:</string>
+    <string name="EDIT_API_KEY_HINT">Your api key...</string>
+    <string name="EDIT_SERVER_ADDRESS">Server address:</string>
+    <string name="SERVER_ADDRESS_HINT">Your server address...</string>
+    <string name="CHECK_CONNECTION">Check Connection</string>
+    <string name="EXIST_AND_SAVE_SETTINGS">Save and Exit</string>
+    <string name="EXIST_AND_DISCARD_SETTINGS">Exit</string>
+    <string name="title_activity_add_all_sms_to_index">Add All SMS</string>
+    <string name="title_activity_add_all_mms_to_index">Add All MMS</string>
+    <string name="index_name">Name:</string>
+    <string name="index_description">Description:</string>
+    <string name="index_num_of_components"># of components:</string>
+    <string name="index_flavor">Flavor:</string>
+    <string name="index_date_created">Date created:</string>
+
+    <string name="sms_id">SMS Id:</string>
+
+    <string name="sms_address">Address:</string>
+
+    <string name="sms_read_state">read state:</string>
+
+    <string name="sms_time">Time:</string>
+
+    <string name="sms_folder_name">Folder name:</string>
+
+    <string name="sms_msg">Content:</string>
+
+
+    <string name="index_type">Type:</string>
+
+
+    <string name="button_start_to_add_messages">Start</string>
+    <string name="button_stop_to_add_messages">Stop</string>
+
+    <string name="total_messages">Total Messages:</string>
+    <string name="total_messages_hint">total messages...</string>
+    <string name="processed_messages">Processed Messages:</string>
+    <string name="processed_messages_hint">processed messages</string>
+
+    <string name="current_message">Current msg:</string>
+    <string name="current_message_hint">msg...</string>
+    <string name="current_message_sentimental_analysis">Sentiment analysis:</string>
+    <string name="current_message_sentimental_analysis_hint">sentiment analysis...</string>
+    <string name="current_message_language_detection">Language:</string>
+    <string name="current_message_language_detection_hint">language...</string>
+
+    <string name="button_start_to_add_attachments">Start</string>
+    <string name="button_stop_to_add_attachments">Stop</string>
+
+    <string name="total_attachments">Total attachments:</string>
+    <string name="processed_attachments">Processed attachments:</string>
+    <string name="current_mms_data">File path:</string>
+    <string name="current_mms_type">File type:</string>
+
+
+</resources>
